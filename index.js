@@ -7,7 +7,7 @@ const auth = require("./middlewares/auth");
 const app = express();
 const PORT = 3001;
 const JWT_SECRET = "secret123";
-const MONGO_URI = "mongodb+srv://abhaybaiju2004:tRqvA5JpXZ0qIO4D@todoapplication.hhgnmqs.mongodb.net/Pay";
+const MONGO_URI = "YourMongoDBLink";
 
 app.use(cors());
 app.use(express.json());
